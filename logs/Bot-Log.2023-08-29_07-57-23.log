@@ -1,0 +1,20 @@
+2023-08-29 07:57:23 [WARNING]: Someone try to use /channel_message Command
+2023-08-29 07:57:23 [INFO]: The Command was succsesfully
+2023-08-29 07:57:23 [INFO]: Shard ID None has connected to Gateway (Session ID: 0b1efb58f4807e6bf5e8d7bfb094b180).
+2023-08-29 07:57:25 [INFO]: Logged in as Berechti
+2023-08-29 07:57:25 [INFO]: Bot ID 1125300916422193194
+2023-08-29 07:57:25 [INFO]: Discord Version 2.3.1
+2023-08-29 07:57:25 [INFO]: Python Version 3.11.2
+2023-08-29 07:57:25 [INFO]: SQLite3 Version: 2.6.0
+2023-08-29 07:57:25 [INFO]: Bot Version: Alpha 0.1
+2023-08-29 07:57:25 [INFO]: Entwickler: Bitflux_
+2023-08-29 07:57:25 [INFO]: Slash CMDs Synced 8 Commands
+2023-08-29 07:57:55 [INFO]: Database is searched
+2023-08-29 07:57:55 [INFO]: Successfully connected to: e:\Discord\BerechtiBotServer\database\wb_storing.db
+2023-08-29 07:57:55 [INFO]: The variable 'date' is compared with all entries 'kw' in the database.
+2023-08-29 07:57:55 [INFO]: A match was found
+2023-08-29 07:57:55 [INFO]: A match was found
+2023-08-29 07:57:55 [INFO]: A match was found
+2023-08-29 07:57:55 [INFO]: A match was found
+2023-08-29 07:57:55 [INFO]: A match was found
+2023-08-29 07:57:56 [INFO]: Search message was sent successfully

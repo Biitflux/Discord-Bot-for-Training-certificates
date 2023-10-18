@@ -1,0 +1,12 @@
+2023-08-25 10:38:53 [WARNING]: PyNaCl is not installed, voice will NOT be supported
+2023-08-25 10:38:53 [INFO]: logging in using static token
+2023-08-25 10:38:53 [WARNING]: Someone try to use /channel_message Command
+2023-08-25 10:38:53 [INFO]: Shard ID None has connected to Gateway (Session ID: 5b99ba180851c1278123f4eef1765309).
+2023-08-25 10:38:55 [INFO]: Logged in as Berechti
+2023-08-25 10:38:55 [INFO]: Bot ID 1125300916422193194
+2023-08-25 10:38:55 [INFO]: Discord Version 2.3.2
+2023-08-25 10:38:55 [INFO]: Python Version 3.11.4
+2023-08-25 10:38:55 [INFO]: SQLite3 Version: 2.6.0
+2023-08-25 10:38:55 [INFO]: Bot Version: Alpha 0.1
+2023-08-25 10:38:55 [INFO]: Entwickler: Bitflux_
+2023-08-25 10:38:56 [INFO]: Slash CMDs Synced 8 Commands

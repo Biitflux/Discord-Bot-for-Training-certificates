@@ -1,0 +1,67 @@
+2023-08-29 06:02:38 [WARNING]: Someone try to use /channel_message Command
+2023-08-29 06:02:38 [INFO]: The Command was succsesfully
+2023-08-29 06:02:38 [INFO]: Shard ID None has connected to Gateway (Session ID: 74aea508451a5ee123addf487066d7d1).
+2023-08-29 06:02:40 [INFO]: Logged in as Berechti
+2023-08-29 06:02:40 [INFO]: Bot ID 1125300916422193194
+2023-08-29 06:02:40 [INFO]: Discord Version 2.3.2
+2023-08-29 06:02:40 [INFO]: Python Version 3.10.12
+2023-08-29 06:02:40 [INFO]: SQLite3 Version: 2.6.0
+2023-08-29 06:02:40 [INFO]: Bot Version: Alpha 0.1
+2023-08-29 06:02:40 [INFO]: Entwickler: Bitflux_
+2023-08-29 06:02:40 [INFO]: Slash CMDs Synced 8 Commands
+2023-08-29 06:03:02 [INFO]: WBCreateModal was succesfully
+2023-08-29 06:04:45 [INFO]: Successfully connected to: /home/discordbot/BerechtiBot/database/wb_storing.db
+2023-08-29 06:04:45 [INFO]: The last entry, sorted by kw, was selected from the database
+2023-08-29 06:04:45 [INFO]: The variable 'nr' + 1 was returned from select_kw_from_database
+2023-08-29 06:04:45 [INFO]: Successfully connected to: /home/discordbot/BerechtiBot/database/wb_storing.db
+2023-08-29 06:04:45 [INFO]: id catch was succsesfully
+2023-08-29 06:04:45 [INFO]: An entry was transferred to the database
+2023-08-29 06:04:56 [INFO]: WBCreateModal was succesfully
+2023-08-29 06:06:25 [INFO]: Successfully connected to: /home/discordbot/BerechtiBot/database/wb_storing.db
+2023-08-29 06:06:25 [INFO]: The last entry, sorted by kw, was selected from the database
+2023-08-29 06:06:25 [INFO]: The variable 'nr' + 1 was returned from select_kw_from_database
+2023-08-29 06:06:25 [INFO]: Successfully connected to: /home/discordbot/BerechtiBot/database/wb_storing.db
+2023-08-29 06:06:25 [INFO]: id catch was succsesfully
+2023-08-29 06:06:25 [INFO]: An entry was transferred to the database
+2023-08-29 06:06:54 [INFO]: Database is searched
+2023-08-29 06:06:54 [INFO]: Successfully connected to: /home/discordbot/BerechtiBot/database/wb_storing.db
+2023-08-29 06:06:54 [INFO]: The variable 'date' is compared with all entries 'kw' in the database.
+2023-08-29 06:06:54 [INFO]: A match was found
+2023-08-29 06:06:54 [INFO]: A match was found
+2023-08-29 06:06:56 [INFO]: Search message was sent successfully
+2023-08-29 07:22:01 [INFO]: Database is searched
+2023-08-29 07:22:01 [INFO]: Successfully connected to: /home/discordbot/BerechtiBot/database/wb_storing.db
+2023-08-29 07:22:01 [INFO]: The variable 'date' is compared with all entries 'kw' in the database.
+2023-08-29 07:22:01 [INFO]: A match was found
+2023-08-29 07:22:01 [INFO]: A match was found
+2023-08-29 07:22:02 [INFO]: Search message was sent successfully
+2023-08-29 09:30:41 [INFO]: Shard ID None has successfully RESUMED session 74aea508451a5ee123addf487066d7d1.
+2023-08-29 10:01:38 [INFO]: Database is searched
+2023-08-29 10:01:38 [INFO]: Successfully connected to: /home/discordbot/BerechtiBot/database/wb_storing.db
+2023-08-29 10:01:38 [INFO]: The variable 'date' is compared with all entries 'kw' in the database.
+2023-08-29 10:01:38 [INFO]: A match was found
+2023-08-29 10:01:38 [INFO]: A match was found
+2023-08-29 10:01:38 [INFO]: A match was found
+2023-08-29 10:01:38 [INFO]: A match was found
+2023-08-29 10:01:38 [INFO]: A match was found
+2023-08-29 10:01:38 [INFO]: Search message was sent successfully
+2023-08-29 10:08:39 [INFO]: WBCreateModal was succesfully
+2023-08-29 10:11:11 [INFO]: Successfully connected to: /home/discordbot/BerechtiBot/database/wb_storing.db
+2023-08-29 10:11:11 [INFO]: The last entry, sorted by kw, was selected from the database
+2023-08-29 10:11:11 [INFO]: The variable 'nr' + 1 was returned from select_kw_from_database
+2023-08-29 10:11:11 [INFO]: Successfully connected to: /home/discordbot/BerechtiBot/database/wb_storing.db
+2023-08-29 10:11:11 [INFO]: id catch was succsesfully
+2023-08-29 10:11:11 [INFO]: An entry was transferred to the database
+2023-08-29 10:11:20 [INFO]: Database is searched
+2023-08-29 10:11:20 [INFO]: Successfully connected to: /home/discordbot/BerechtiBot/database/wb_storing.db
+2023-08-29 10:11:20 [INFO]: The variable 'date' is compared with all entries 'kw' in the database.
+2023-08-29 10:11:20 [INFO]: A match was found
+2023-08-29 10:11:20 [INFO]: A match was found
+2023-08-29 10:11:20 [INFO]: A match was found
+2023-08-29 10:11:20 [INFO]: Search message was sent successfully
+2023-08-29 10:11:28 [INFO]: Database is searched
+2023-08-29 10:11:28 [INFO]: Successfully connected to: /home/discordbot/BerechtiBot/database/wb_storing.db
+2023-08-29 10:11:28 [INFO]: The variable 'date' is compared with all entries 'kw' in the database.
+2023-08-29 10:11:28 [WARNING]: No match was found
+2023-08-29 10:11:28 [INFO]: Search message was sent successfully
+2023-08-29 10:51:08 [INFO]: Shutdown Command was registered by bitflux_
