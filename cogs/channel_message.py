@@ -29,7 +29,7 @@ embed_no_permmision.add_field(name=f"**Dazu hast du keine Berechtigung!**", valu
 embed_message = discord.Embed( title="**Information**", description="", color=discord.Color.orange())
 embed_message.set_thumbnail(url=bot_picture)
 embed_message.set_author(name="Developed by Bitflux_",icon_url=def_picture,url="https://discordapp.com/users/266266567157874700")
-embed_message.add_field(name="**/help**", value="Zeigt dir wichtige Informationen an.")
+embed_message.add_field(name="**/info**", value="Zeigt dir wichtige Informationen an.")
 embed_message.add_field(name="**/wb_new_entry**", value="Hiermit kannst du einen Eintrag erstellen.")
 embed_message.add_field(name="**/wb_view**", value="Gebe die Anzahl an, an letzen Einträgen du sehen willst")
 embed_message.add_field(name="**/wb_search**", value="Suche einen Eintrag nach einem Datum")

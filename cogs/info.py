@@ -4,28 +4,29 @@ from discord import app_commands
 import time
 from sources import infos
 from sources.logger import CustomLogger, INFO, ERROR
+
 logger = CustomLogger()
 
-class help(commands.Cog):
+class info(commands.Cog):
   def __init__(self, client: commands.Bot):
     self.client = client
 
-  @app_commands.command(name="help", description="View help pages.")
-  async def help(self, interaction: discord.Interaction):
+  @app_commands.command(name="info", description="View informations.")
+  async def info(self, interaction: discord.Interaction):
     try:
       embed = BotInformation()
       await interaction.response.send_message(embed=embed, ephemeral=True)
-      logger.log("The help message was sent successfully", LVL=INFO)
+      logger.log("The info message was sent successfully", level=INFO)
     except discord.DiscordException as e:
-        logger.log(f"An error occurred while sending the help message: {str(e)}", level=ERROR)
+        logger.log(f"An error occurred while sending the info message: {str(e)}", level=ERROR)
 
 async def setup(client:commands.Bot) -> None:
-  await client.add_cog(help(client))
+  await client.add_cog(info(client))
 
 
 def BotInformation():    
     embed = discord.Embed(
-        title="**HELP PAGES**",
+        title="**Informations**",
         description="",
         color=discord.Color.yellow()
     )

@@ -10,7 +10,8 @@ from datetime import datetime
 
 
 logger = CustomLogger()
-path = DBPath()
+current_directory = os.path.dirname(__file__)
+path = os.path.join(current_directory, "wb_storing.db")
 
 
 def create_connection(path):
@@ -23,6 +24,7 @@ def create_connection(path):
         cursor = conn.cursor()
 
         cursor.execute("CREATE TABLE IF NOT EXISTS WB (id INTEGER, lehrer TEXT, datum TEXT, content TEXT, notes TEXT, kw INTEGER, nr INTEGER, fach TEXT)")
+        logger.log(f"The database was created successfully", level=INFO)
 
     except Error as e:
         logger.log(f"An error occurred in create_connection: {str(e)}", level=ERROR)
@@ -161,11 +163,11 @@ def database_view(anzahl):
                     f.write(f'{id}\n')
 
         if not results:
-            embed = discord.Embed( title="**WOCHENBERICHT EINTRAG NICHT GEFUNDEN**", description="", color=discord.Color.red())
+            embed = discord.Embed( title="**Wochenbericht**", description="", color=discord.Color.red())
             embed.set_thumbnail(url=bot_picture)
             embed.set_author(name="Developed by Bitflux_",icon_url=def_picture,url="https://discordapp.com/users/266266567157874700")
-            embed.add_field(name="**ES WURDE KEIN EINTRAG GEFUNDEN, BITTE ÜBERPRÜFE DEINEN EINTRAG**", value="")
-            logger.log("No match was found", level=WARNING)
+            embed.add_field(name="**Es wurde kein Eintrag in der Datenbank gefunden, überprüfe bitte deine Eingabe.**", value="")
+            logger.log("No match was found in the database", level=WARNING)
             return [embed]
         return embeds
 

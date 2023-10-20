@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 from sources.logger import CustomLogger, INFO, ERROR
-from sources.config import BOT_TOKEN
+from sources.infos import BOT_TOKEN
 
 from sources.infos import bot_version, bot_developer, discord_version, python_version, sqlite_version
 
@@ -11,7 +11,7 @@ class Client(commands.Bot):
     def __init__(self):
         super().__init__(command_prefix=".", intents=discord.Intents.all())
 
-        self.cogslist = ["cogs.help", 
+        self.cogslist = ["cogs.info", 
                          "cogs.shutdown",
                          "cogs.restart", 
                          "cogs.wb_new_entry", 
