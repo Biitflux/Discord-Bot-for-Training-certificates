@@ -17,13 +17,13 @@ class ChannelMessage(commands.Cog):
       await interaction.response.send_message(embed=embed_message)
     else:
       await interaction.response.send_message(embed=embed_no_permmision, ephemeral=True)
+      logger.log(f"Someone try to use /channel_message Command", level=WARNING)
 
 
 embed_no_permmision = discord.Embed( title="**Information zu den Commands**", description="", color=discord.Color.red())
 embed_no_permmision.set_thumbnail(url=bot_picture)
 embed_no_permmision.set_author(name="Developed by Bitflux_",icon_url=def_picture,url="https://discordapp.com/users/266266567157874700")
 embed_no_permmision.add_field(name=f"**Dazu hast du keine Berechtigung!**", value="")
-logger.log(f"Someone try to use /channel_message Command", level=WARNING)
 
 
 embed_message = discord.Embed( title="**Information**", description="", color=discord.Color.orange())

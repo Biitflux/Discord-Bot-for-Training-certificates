@@ -5,7 +5,7 @@ import sqlite3
 sqlite_version = sqlite3.version
 bot_version = "Alpha 0.1"
 bot_developer = "Bitflux_"
-discord_version = discord.__version__
+discord_version = discord.__version__()
 python_version = str(platform.python_version())
 
 
