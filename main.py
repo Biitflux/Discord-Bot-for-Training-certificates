@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 from sources.logger import CustomLogger, INFO, ERROR
-
+from sources.config import BOT_TOKEN
 
 from sources.infos import bot_version, bot_developer, discord_version, python_version, sqlite_version
 
@@ -56,7 +56,7 @@ class Client(commands.Bot):
 def main():
     try:
         client = Client()
-        client.run("MTEyNTMwMDkxNjQyMjE5MzE5NA.Giej6I.pi3o7t-YPiXgk1rKLNJAnMUYSbpLtx4Q0OLr1Q")
+        client.run(BOT_TOKEN)
         
     except discord.DiscordException as e:
         logger.log(f"An error occurred during startup: {str(e)}", level=ERROR)
